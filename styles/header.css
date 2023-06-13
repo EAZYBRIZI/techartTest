@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+    gap: 24px;
+    margin: 35px 0px 35px 0px;
+    color:#2C145E;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+
+
+.logo img {
+    width: 93px;
+    height: 66px;
+}
+
+.logo h1 {
+    font-size: 28px;
+}
+
+header .nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav a {
+    font-size: 24px;
+    margin-left: 10px;
+    color: black;
+}
+
+.nav a.active {
+    font-size: 28px;
+    border-bottom: 1px solid black;
+}
